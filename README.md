@@ -17,10 +17,9 @@ The module connects to the development board via a PH2.0 6-pin cable for environ
 |Humidity Measurement|0–100%RH (Resolution: 0.008%RH, Accuracy: ±3%RH)|0–100%RH (Resolution: 0.008%RH, Accuracy: ±3%RH)|
 |Pressure Range|300–1100 hPa|300–1100 hPa|
 |Pressure Accuracy|±0.6hPa (0–65℃)|±0.6hPa (0–65℃)|
-|Gas Detection|VOC gas variation detection (Bosch software required for IAQ calculation)|VOC and VSC gas variation detection (Bosch software required for IAQ calculation and integrated AI functions)|
-<br>
-## 1.3 Dimensions
+|Gas Detection|VOC gas variation detection (Bosch software required for IAQ calculation)|VOC and VSC gas variation detection (Bosch software required for IAQ calculation and integrated AI functions)|<br>
 
+## 1.3 Dimensions
 ![image](https://github.com/seengreat/BME68X-Environmental-Sensor/blob/main/2.jpg)<br>
 # Ⅱ Usage
 The onboard I2C address setting slide switch is by default in the 0x77 position. When using SPI communication, ensure the switch is also set to 0x77.<br>
@@ -41,8 +40,7 @@ Note: In the example programs for all platforms, the gas detection result is rep
 |SCL/SCK|Clock line|Serial clock|
 |SDA/MOSI|Data line|Master Output/Slave Input
 |MISO/ADDR|Not connected (NC)|Master Input/Slave Output|
-|CS|Not connected (NC)|Chip select signal|
-<br>
+|CS|Not connected (NC)|Chip select signal|<br>
 Table 2-1: BME68X Environmental Sensor Pin Definition<br>
 ## 2.3 Usage
 For more details about Usage<br>
