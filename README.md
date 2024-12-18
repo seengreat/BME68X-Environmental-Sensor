@@ -9,24 +9,25 @@ The module connects to the development board via a PH2.0 6-pin cable for environ
 ## 1.2 Product Specifications
 |Sensor Chip|BME680|BME688|
 |-------------|---------|---------|
-|Dimensions|30mm (L) × 20mm (W)| |
-|Signal Interface|I2C/SPI| |
-|Supply Voltage|3.3V/5V| |
-|Temperature Range|-40 to +85℃| |
+|Dimensions|30mm (L) × 20mm (W)|30mm (L) × 20mm (W)|
+|Signal Interface|I2C/SPI|I2C/SPI|
+|Supply Voltage|3.3V/5V|3.3V/5V|
+|Temperature Range|-40 to +85℃|-40 to +85℃|
 |Temperature Accuracy| ±1℃ (0–65℃)|±0.5℃ (0–65℃)|
-|Humidity Measurement|0–100%RH (Resolution: 0.008%RH, Accuracy: ±3%RH)| |
-|Pressure Range|300–1100 hPa| |
-|Pressure Accuracy|±0.6hPa (0–65℃)| |
+|Humidity Measurement|0–100%RH (Resolution: 0.008%RH, Accuracy: ±3%RH)|0–100%RH (Resolution: 0.008%RH, Accuracy: ±3%RH)|
+|Pressure Range|300–1100 hPa|300–1100 hPa|
+|Pressure Accuracy|±0.6hPa (0–65℃)|±0.6hPa (0–65℃)|
 |Gas Detection|VOC gas variation detection (Bosch software required for IAQ calculation)|VOC and VSC gas variation detection (Bosch software required for IAQ calculation and integrated AI functions)|
 <br>
 ## 1.3 Dimensions
-![image](https://github.com/seengreat/BME68X-Environmental-Sensor/blob/main/1.jpg)<br>
+
+![image](https://github.com/seengreat/BME68X-Environmental-Sensor/blob/main/2.jpg)<br>
 # Ⅱ Usage
 The onboard I2C address setting slide switch is by default in the 0x77 position. When using SPI communication, ensure the switch is also set to 0x77.<br>
 Note: In the example programs for all platforms, the gas detection result is represented as a resistance value. To convert this to the IAQ (Indoor Air Quality) index, you must use the official BSEC software library (non-open-source). Bosch imposes certain restrictions and licensing on the use of this software library. Users should review the documentation and terms before integrating it. The link to the BSEC software library is: https://www.bosch-sensortec.com/software-tools/software/previous-bsec-software-versions/<br>
 
 ## 2.1 Resources Overview
-![image](https://github.com/seengreat/BME68X-Environmental-Sensor/blob/main/1.jpg)<br>
+![image](https://github.com/seengreat/BME68X-Environmental-Sensor/blob/main/3.jpg)<br>
 1.PH2.0 6-PIN Connector: Used for connecting the sensor module to the development board.<br>
 2.RT9193-33 Linear Regulator: Provides a stable power supply with low power consumption and quick startup time.<br>
 3.BME68X Sensor: The core component for measuring temperature, humidity, pressure, and gas levels.<br>
