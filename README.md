@@ -41,6 +41,7 @@ Note: In the example programs for all platforms, the gas detection result is rep
 |SDA/MOSI|Data line|Master Output/Slave Input
 |MISO/ADDR|Not connected (NC)|Master Input/Slave Output|
 |CS|Not connected (NC)|Chip select signal|<br>
+
 Table 2-1: BME68X Environmental Sensor Pin Definition<br>
 ## 2.3 Usage
 For more details about Usage<br>
